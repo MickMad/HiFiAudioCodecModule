@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name HiFiAudioCodecModule-footprints)(type KiCad)(uri "$(KIPRJMOD)\\kicad\HiFiAudioCodecModule-footprints.pretty")(options "")(descr ""))
+)

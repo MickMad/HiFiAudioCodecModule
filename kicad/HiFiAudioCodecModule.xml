@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>HiFiAudioCodecModule.sch</source>
-    <date>30/11/2015 22:51:18</date>
+    <source>C:\Users\mperla.CORP\Documents\GitHub\HiFiAudioCodecModule\HiFiAudioCodecModule.sch</source>
+    <date>12/01/2016 16:43:00</date>
     <tool>Eeschema (2015-08-16 BZR 6097, Git b384c94)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,192 +21,254 @@
   <components>
     <comp ref="U1">
       <value>AK4558EN</value>
-      <footprint>Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm</footprint>
-      <libsource lib="square inch project" part="AK4558EN"/>
+      <footprint>HiFiAudioCodecModule-footprints:QFN-28-2xEP_5x5mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="manf#">AK4558EN</field>
+      </fields>
+      <libsource lib="HiFiAudioCodecModule" part="AK4558EN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563B5F3C</tstamp>
     </comp>
     <comp ref="C1">
       <value>0.1u</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_0402</footprint>
+      <fields>
+        <field name="manf#">CC0402KRX7R7BB104</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA3E7</tstamp>
     </comp>
     <comp ref="C4">
       <value>10u</value>
-      <footprint>Capacitors_SMD:c_elec_4x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:CAP_ELEC_SMD_3x5mm</footprint>
+      <fields>
+        <field name="manf#">UWX1C100MCL2GB</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA444</tstamp>
     </comp>
     <comp ref="R1">
       <value>220</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-07220RL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA48F</tstamp>
     </comp>
     <comp ref="C2">
       <value>0.1u</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_0402</footprint>
+      <fields>
+        <field name="manf#">CC0402KRX7R7BB104</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA677</tstamp>
     </comp>
     <comp ref="C5">
       <value>10u</value>
-      <footprint>Capacitors_SMD:c_elec_4x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:CAP_ELEC_SMD_3x5mm</footprint>
+      <fields>
+        <field name="manf#">UWX1C100MCL2GB</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA6DE</tstamp>
     </comp>
     <comp ref="C6">
       <value>1u</value>
-      <footprint>Capacitors_SMD:c_elec_3x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:CAP_ELEC_SMD_3x5mm</footprint>
+      <fields>
+        <field name="manf#">UWX1C100MCL2GB</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA707</tstamp>
     </comp>
     <comp ref="C7">
       <value>10u</value>
-      <footprint>Capacitors_SMD:c_elec_4x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_Radial_D5_L11_P2-bipolar</footprint>
+      <fields>
+        <field name="manf#">UES1E100MDM1TD</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA7B8</tstamp>
     </comp>
     <comp ref="C8">
       <value>10u</value>
-      <footprint>Capacitors_SMD:c_elec_4x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_Radial_D5_L11_P2-bipolar</footprint>
+      <fields>
+        <field name="manf#">UES1E100MDM1TD</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA7F3</tstamp>
     </comp>
     <comp ref="C9">
       <value>1u</value>
-      <footprint>Capacitors_SMD:c_elec_3x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_Radial_D5_L11_P2-bipolar</footprint>
+      <fields>
+        <field name="manf#">UES1H010MDM1TD</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA82D</tstamp>
     </comp>
     <comp ref="C10">
       <value>1u</value>
-      <footprint>Capacitors_SMD:c_elec_3x5.3</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_Radial_D5_L11_P2-bipolar</footprint>
+      <fields>
+        <field name="manf#">UES1H010MDM1TD</field>
+      </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA868</tstamp>
     </comp>
     <comp ref="C3">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:C_0402</footprint>
+      <fields>
+        <field name="manf#">CC0402KRX7R5BB105</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563CA69C</tstamp>
     </comp>
     <comp ref="R2">
       <value>220</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-07220RL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563D5770</tstamp>
     </comp>
     <comp ref="R3">
       <value>20K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-0720KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563D57C6</tstamp>
     </comp>
     <comp ref="R4">
       <value>20K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-0720KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563D5863</tstamp>
     </comp>
     <comp ref="R5">
       <value>1K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563D87C4</tstamp>
     </comp>
     <comp ref="R6">
       <value>1K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563D89F4</tstamp>
     </comp>
     <comp ref="JP1">
       <value>Jumper_NO_Small</value>
-      <footprint>open-project:S_JUMPER_2</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:SMD_Jumper</footprint>
       <libsource lib="device" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563DA876</tstamp>
     </comp>
     <comp ref="R7">
       <value>1K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>563DB24A</tstamp>
     </comp>
     <comp ref="R8">
       <value>1K</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:R_0402</footprint>
+      <fields>
+        <field name="manf#">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564F282D</tstamp>
     </comp>
     <comp ref="JP2">
       <value>Jumper_NO_Small</value>
-      <footprint>open-project:S_JUMPER_2</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:SMD_Jumper</footprint>
       <libsource lib="device" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564F2C04</tstamp>
     </comp>
-    <comp ref="P3">
-      <value>CONN_02X04</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
-      <libsource lib="conn" part="CONN_02X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56504021</tstamp>
-    </comp>
     <comp ref="P1">
       <value>CONN_01X06</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:Pin_Header_Straight_1x06</footprint>
+      <fields>
+        <field name="manf#">M20-9990645</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565041BA</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X06</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <footprint>HiFiAudioCodecModule-footprints:Pin_Header_Straight_1x06</footprint>
+      <fields>
+        <field name="manf#">M20-9990645</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5650446A</tstamp>
     </comp>
+    <comp ref="P3">
+      <value>CONN_02X05</value>
+      <footprint>HiFiAudioCodecModule-footprints:Pin_Header_Straight_2x05</footprint>
+      <fields>
+        <field name="manf#">M20-9980545</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565CEA4A</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>HACKADAY</value>
+      <footprint>hackaday_logo:LOGO</footprint>
+      <libsource lib="HiFiAudioCodecModule" part="HACKADAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667295B</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>OSHW</value>
+      <footprint>oshw_logo:LOGO</footprint>
+      <libsource lib="HiFiAudioCodecModule" part="OSHW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667299F</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C_Small">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="CP_Small">
       <description>Polarised capacitor</description>
       <footprints>
@@ -226,6 +288,35 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R_Small">
       <description>Resistor</description>
       <footprints>
@@ -241,7 +332,51 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="square inch project" part="AK4558EN">
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HiFiAudioCodecModule" part="AK4558EN">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">AK4558EN</field>
@@ -278,125 +413,91 @@
         <pin num="29" name="PAD" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper normally open</description>
+    <libpart lib="HiFiAudioCodecModule" part="HACKADAY">
       <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
+        <field name="Reference">#G</field>
+        <field name="Value">HACKADAY</field>
       </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_02X04">
-      <footprints>
-        <fp>Pin_Header_Straight_2X04</fp>
-        <fp>Pin_Header_Angled_2X04</fp>
-        <fp>Socket_Strip_Straight_2X04</fp>
-        <fp>Socket_Strip_Angled_2X04</fp>
-      </footprints>
+    <libpart lib="HiFiAudioCodecModule" part="OSHW">
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X04</field>
+        <field name="Reference">#G</field>
+        <field name="Value">OSHW</field>
       </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X06">
-      <footprints>
-        <fp>Pin_Header_Straight_1X06</fp>
-        <fp>Pin_Header_Angled_1X06</fp>
-        <fp>Socket_Strip_Straight_1X06</fp>
-        <fp>Socket_Strip_Angled_1X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="HiFiAudioCodecModule">
-      <uri>HiFiAudioCodecModule.lib</uri>
-    </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
+    <library logical="HiFiAudioCodecModule">
+      <uri>C:\Users\mperla.CORP\Documents\GitHub\HiFiAudioCodecModule\HiFiAudioCodecModule.lib</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="20"/>
-      <node ref="U1" pin="29"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="JP1" pin="2"/>
       <node ref="U1" pin="3"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C6" pin="2"/>
       <node ref="U1" pin="13"/>
-      <node ref="JP2" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
       <node ref="U1" pin="2"/>
       <node ref="C4" pin="2"/>
       <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="JP2" pin="2"/>
     </net>
-    <net code="2" name="SDA">
-      <node ref="U1" pin="17"/>
+    <net code="2" name="VDD">
+      <node ref="P1" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="SDA">
       <node ref="R5" pin="2"/>
       <node ref="P2" pin="4"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="3" name="SCL">
-      <node ref="U1" pin="16"/>
+    <net code="4" name="SCL">
       <node ref="P2" pin="3"/>
+      <node ref="U1" pin="16"/>
       <node ref="R6" pin="2"/>
     </net>
-    <net code="4" name="CAD0">
-      <node ref="U1" pin="18"/>
+    <net code="5" name="CAD0">
       <node ref="JP1" pin="1"/>
       <node ref="R7" pin="2"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="5" name="CAD1">
+    <net code="6" name="CAD1">
       <node ref="U1" pin="19"/>
-      <node ref="R8" pin="2"/>
       <node ref="JP2" pin="1"/>
+      <node ref="R8" pin="2"/>
     </net>
-    <net code="6" name="RIN-CON">
-      <node ref="C8" pin="2"/>
-      <node ref="P3" pin="5"/>
+    <net code="7" name="ROUT-CON">
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P3" pin="1"/>
     </net>
-    <net code="7" name="LIN-CON">
-      <node ref="P3" pin="7"/>
-      <node ref="C7" pin="2"/>
-    </net>
-    <net code="8" name="LIN">
-      <node ref="U1" pin="22"/>
-      <node ref="C7" pin="1"/>
-    </net>
-    <net code="9" name="RIN">
+    <net code="8" name="RIN">
       <node ref="U1" pin="23"/>
       <node ref="C8" pin="1"/>
+    </net>
+    <net code="9" name="LIN">
+      <node ref="U1" pin="22"/>
+      <node ref="C7" pin="1"/>
     </net>
     <net code="10" name="LOUT">
       <node ref="C9" pin="1"/>
@@ -407,71 +508,66 @@
       <node ref="U1" pin="28"/>
     </net>
     <net code="12" name="Net-(C9-Pad2)">
-      <node ref="R1" pin="2"/>
       <node ref="C9" pin="2"/>
+      <node ref="R1" pin="2"/>
     </net>
     <net code="13" name="Net-(C10-Pad2)">
       <node ref="C10" pin="2"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="14" name="LOUT-CON">
+    <net code="14" name="LIN-CON">
+      <node ref="P3" pin="9"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="15" name="RIN-CON">
+      <node ref="C8" pin="2"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="16" name="LOUT-CON">
+      <node ref="P3" pin="3"/>
       <node ref="R1" pin="1"/>
       <node ref="R3" pin="1"/>
-      <node ref="P3" pin="3"/>
     </net>
-    <net code="15" name="ROUT-CON">
-      <node ref="P3" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="16" name="GNDA">
-      <node ref="P2" pin="6"/>
-      <node ref="P3" pin="4"/>
-      <node ref="P3" pin="6"/>
-      <node ref="U1" pin="25"/>
-      <node ref="P3" pin="8"/>
-      <node ref="R4" pin="2"/>
+    <net code="17" name="GNDA">
       <node ref="R3" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P3" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P3" pin="8"/>
+      <node ref="P3" pin="10"/>
+      <node ref="P2" pin="6"/>
       <node ref="C2" pin="2"/>
       <node ref="C5" pin="2"/>
-      <node ref="P3" pin="2"/>
+      <node ref="U1" pin="25"/>
     </net>
-    <net code="17" name="SDTO">
-      <node ref="P1" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="18" name="BICK">
-      <node ref="P1" pin="3"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="19" name="SDTI">
-      <node ref="P1" pin="4"/>
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="20" name="MCKI">
-      <node ref="U1" pin="11"/>
-      <node ref="P1" pin="5"/>
-    </net>
-    <net code="21" name="VDD">
-      <node ref="R5" pin="1"/>
-      <node ref="P1" pin="6"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U1" pin="21"/>
-      <node ref="U1" pin="12"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="22" name="PDN">
+    <net code="18" name="PDN">
       <node ref="U1" pin="15"/>
       <node ref="P2" pin="2"/>
     </net>
-    <net code="23" name="AVDD">
-      <node ref="C2" pin="1"/>
-      <node ref="C5" pin="1"/>
+    <net code="19" name="AVDD">
       <node ref="P2" pin="5"/>
+      <node ref="C2" pin="1"/>
       <node ref="U1" pin="24"/>
+      <node ref="C5" pin="1"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="20" name="SDTO">
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="21" name="BICK">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="22" name="SDTI">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="23" name="MCKI">
+      <node ref="U1" pin="11"/>
+      <node ref="P1" pin="5"/>
     </net>
     <net code="24" name="LRCK">
       <node ref="P1" pin="1"/>
